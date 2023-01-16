@@ -1,6 +1,6 @@
 # WRF2A3D
 
-These scripts permit to prepare the output files of [WRF](https://www.mmm.ucar.edu/models/wrf) model simulations and use them as input files for [Alpine3D](https://www.slf.ch/en/services-and-products/alpine-3d.html) model.
+These scripts permit manipulate the output files of [WRF](https://www.mmm.ucar.edu/models/wrf) model simulations and use them as input files for [Alpine3D](https://www.slf.ch/en/services-and-products/alpine-3d.html) model.
 
 ## Usage example
 
