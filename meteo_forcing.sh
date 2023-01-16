@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-###### PYTHON SCRIPTS ######
+###### PATH TO PYTHON SCRIPTS ######
 
 pyscripts_path="path to pyscripts"
 
@@ -30,6 +30,11 @@ nearest_var_name="LU_INDEX,LANDLAKEMASK"
 rectangular_grid_path="path to rectangular grid"
 
 
+###### SCRIPT ARGUMENTS ######
+
+wrfout_path=$1    # WRFOUT PATH
+
+
 ###### WRFOUT PROCESSING ######
 
 echo "###############################################"
@@ -38,8 +43,6 @@ echo "Start"
 
 DATE=$(date +"%Y-%m-%dT%H:%M")
 echo $DATE
-
-wrfout_path=$1
 
 working_path=$wrfout_path/processed
 mkdir $working_path
@@ -69,7 +72,7 @@ rm $swpmeteo_path/*.nc
 
 cd $wrfout_path
 
-for file in wrfout_ABR01* ; do
+for file in wrfout* ; do
 
   echo "###############################################"
 
