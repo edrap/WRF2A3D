@@ -13,7 +13,7 @@ return_dim_size_path=$pyscripts_path"/return_dim_size.py"
 nearest_path=$pyscripts_path"/nearest_remap.py"
 prevah_path=$pyscripts_path"/prevah2netcdf.py"
 soilthick_path=$pyscripts_path"/soilthick2netcdf.py"
-nowater_path=$pyscripts_path"/wrf_to_nowater.py"
+nowater_path=$pyscripts_path"/wrf2nowater.py"
 
 
 ###### CONFIGURATION PARAMETERS ######
