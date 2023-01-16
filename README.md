@@ -18,6 +18,6 @@ initCond.sh "/media/Maxtor3/EXP1/processed/alpine3d/2023-01-05T00:47/input/meteo
 
 ### Generate the .sno files for Alpine3D snow/soil initial conditions
 ```console
-python sno_grid_generator.py surface_initial_step_prevah.nc soil_initial_step_thick.nc /home/edrap/alpine3d/vir_common.txt "/home/edrap/alpine3d/2023-01-04T13:22/input/snowfiles/" t0_ 20
+python3 sno_grid_generator.py surface_initial_step_prevah.nc soil_initial_step_thick.nc /home/edrap/alpine3d/vir_common.txt "/home/edrap/alpine3d/2023-01-04T13:22/input/snowfiles/" t0_ 20
 ```
 
