@@ -1,0 +1,11 @@
+nodata = -999
+tz = 1
+HS_Last = 0.0
+SlopeAngle = 0
+SlopeAzi = 0
+nSnowLayerData = 0
+WindScalingFactor = 0
+ErosionLevel = 0
+TimeCountDeltaHS = 0
+fields = timestamp Layer_Thick T Vol_Frac_I Vol_Frac_W Vol_Frac_V Vol_Frac_S Rho_S Conduc_S HeatCapac_S rg rb dd sp mk mass_hoar ne CDot metamo
+[DATA]
