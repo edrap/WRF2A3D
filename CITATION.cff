@@ -4,6 +4,6 @@ authors:
 - family-names: "Raparelli"
   given-names: "Edoardo"
   orcid: "https://orcid.org/0000-0003-4283-0996"
-title: "edrap/WRF2A3D: v0.2.0-alpha"
+title: "WRF2A3D"
 version: "v0.2.0-alpha"
 date-released: "2023-01-17"
